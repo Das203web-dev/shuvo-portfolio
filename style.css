@@ -28,15 +28,16 @@ section {
 }
 
 .width img {
-    width: 90%;
-    height: 70%;
-    padding-left: 20px;
+    width: 63%;
+    height: 95%;
+    padding-left: 150px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
+    padding: 10px 45px;
+    margin-left: 5px;
     border-radius: 10px;
     color: white;
     font-weight: 800;
@@ -45,9 +46,26 @@ section {
 .psize {
     text-align: justify;
     padding-left: 5px;
+
 }
 
-.bgimg {
-    background-image: url(bgm/bg2.webp);
-    background-repeat: no-repeat;
+h2 {
+
+    color: orange;
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 45px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+
+}
+
+.psize1 {
+    text-align: justify;
+    padding-right: 10px;
+    padding-bottom: 30px;
 }
