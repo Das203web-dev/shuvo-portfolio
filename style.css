@@ -16,9 +16,10 @@ span {
     color: orange;
 }
 
-section {
-    display: flex;
 
+.container {
+    display: flex;
+    margin-bottom: 150px;
 }
 
 .width {
@@ -57,7 +58,7 @@ h2 {
 .link-button2 {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 45px;
+    padding: 10px 40px;
     border-radius: 10px;
     color: white;
     font-weight: 800;
@@ -68,4 +69,80 @@ h2 {
     text-align: justify;
     padding-right: 10px;
     padding-bottom: 30px;
+    padding-left: 5px;
+}
+
+.width2 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 15px 15px 30px yellowgreen;
+    border-left: 10px solid orange;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
+
+#bg-img-expe {
+    border-image: linear-gradient(blue, cyan) 60;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(orange, tomato);
+
+    color: white;
+
+}
+
+.footer {
+    display: flex;
+
+
+
+
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-display: block;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+h5 {
+    padding-bottom: 15px;
+}
+
+#footer-margin {
+    padding-top: 30px;
+
 }
